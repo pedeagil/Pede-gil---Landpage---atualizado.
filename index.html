@@ -145,6 +145,19 @@
   }
 }
 </script>
+<style>
+    /* FORÇAR TUDO A APARECER */
+    * {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+    
+    /* MATAR O LOADING INFINITO */
+    #loader, .loader, #preloader, .loading-screen {
+        display: none !important;
+    }
+</style>
 </head>
   <body class="text-slate-900 antialiased selection:bg-indigo-500 selection:text-white">
     <div id="root"></div>
